@@ -19,21 +19,166 @@ const newsletters = [
     description:
       "Andrew Ng's weekly roundup of important AI news and research. (Must-read)",
     category: 'General AI/ML News & Trends (Broad Appeal)',
-    url: 'https://www.deeplearning.ai/the-batch/', // You NEED to find this URL
+    url: 'https://www.deeplearning.ai/the-batch/',
   },
   {
     name: 'Import AI (Jack Clark)',
     description:
       'Thoughtful analysis of AI advancements and their implications. (Must-read)',
     category: 'General AI/ML News & Trends (Broad Appeal)',
-    url: 'https://importai.substack.com/', // Example - find the real one
+    url: 'https://importai.substack.com/',
   },
   {
     name: "Ben's Bites",
     description:
       'Daily AI news, tools, and funding in a quick, digestible format. Very popular.',
     category: 'General AI/ML News & Trends (Broad Appeal)',
-    url: 'https://bensbites.co/', // Example - find the real one
+    url: 'https://bensbites.co/',
+  },
+  {
+    name: 'TLDR AI',
+    description:
+      'Daily newsletter summarizing the most important AI news and research papers.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://tldr.tech/ai',
+  },
+  {
+    name: 'Data Science Weekly',
+    description: 'Curated news, articles, and jobs in data science and ML.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://www.datascienceweekly.org/',
+  },
+  {
+    name: 'KDnuggets News',
+    description:
+      'Long-standing resource for AI, Data Science, and Machine Learning.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://www.kdnuggets.com/news/subscribe.html',
+  },
+  {
+    name: 'The Algorithm (MIT Technology Review)',
+    description: 'How AI is changing our world, by MIT Tech Review.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://www.technologyreview.com/newsletter-archive/the-algorithm/',
+  },
+  {
+    name: 'Last Week in AI',
+    description:
+      'Weekly summary of notable AI news, research, and discussions.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://lastweekin.ai/',
+  },
+  {
+    name: 'Exponential View (Azeem Azhar)',
+    description:
+      "Broader tech focus, but excellent insights on AI's societal and economic impact.",
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://www.exponentialview.co/',
+  },
+  {
+    name: 'AI Weekly (Inside.com)',
+    description: 'Curated AI news from various sources.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://inside.com/ai',
+  },
+  {
+    name: 'Synced Review',
+    description: "Global AI news, particularly strong on China's AI scene.",
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://syncedreview.com/', // Check for newsletter signup options on their site
+  },
+  {
+    name: 'Artificial Ignorance',
+    description: 'A critical, often humorous take on AI hype.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://artificialignorance.substack.com/',
+  },
+  {
+    name: 'The Neuron',
+    description: 'Daily AI news and tools, easy to digest.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://www.theneurondaily.com/',
+  },
+  {
+    name: 'Superhuman AI',
+    description:
+      'Daily newsletter focusing on AI tools and how to leverage them.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://www.superhuman.ai/',
+  },
+  {
+    name: 'AI Tool Report',
+    description: 'Focuses on new AI tools and practical applications.',
+    category: 'General AI/ML News & Trends (Broad Appeal)',
+    url: 'https://aitoolreport.com/',
+  },
+  {
+    name: 'Papers with Code Newsletter',
+    description:
+      'Latest trending research papers with code implementations. (Essential for researchers)',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://paperswithcode.com/newsletter',
+  },
+  {
+    name: 'Deep Learning Weekly',
+    description:
+      'Curated list of new research, articles, and projects in deep learning.',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://www.deeplearningweekly.com/',
+  },
+  {
+    name: 'The Gradient',
+    description:
+      'Publishes articles, interviews, and analysis on AI research and trends.',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://thegradient.pub/',
+  },
+  {
+    name: 'ArXiv Sanity Preserver (by Andrej Karpathy)',
+    description:
+      'Not a newsletter, but a website that helps filter/sort new arXiv papers. Many use it daily like one.',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'http://www.arxiv-sanity.com/',
+  },
+  {
+    name: 'ChinAI (Jeff Ding)',
+    description: 'Translations and analysis of Chinese AI research and policy.',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://chinai.substack.com/',
+  },
+  {
+    name: 'BAIR Blog (Berkeley AI Research)',
+    description:
+      "Updates from Berkeley's AI research lab. (Often has a newsletter option for blog updates)",
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://bair.berkeley.edu/blog/',
+  },
+  {
+    name: 'Stanford AI Lab Blog (SAIL)',
+    description:
+      "Insights from Stanford's AI researchers. (Often has a newsletter option for blog updates)",
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://ai.stanford.edu/blog/',
+  },
+  {
+    name: 'Distill',
+    description:
+      'Publishes clear, interactive articles explaining ML concepts. (Subscribe for updates)',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://distill.pub/',
+  },
+  {
+    name: 'Causal Inference News',
+    description: 'For those interested in causality in ML.',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://www.bradyneal.com/causal-news',
+  },
+  {
+    name: 'ML Research Papers Explained (AK)',
+    description:
+      'YouTuber "AK" often has a newsletter or community for paper discussions.',
+    category: 'Research & Cutting-Edge Developments',
+    url: 'https://www.youtube.com/@ak',
   },
   {
     name: 'MLOps.community Newsletter',
@@ -536,3 +681,4 @@ const newsletters = [
   },
   // ... and so on for all categories and newsletters
 ];
+
