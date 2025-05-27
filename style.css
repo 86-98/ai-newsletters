@@ -1,0 +1,135 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Light gray background, common in dev tools/spaces */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+header p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.filter-container input[type="text"] {
+    padding: 10px 15px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Rounded search bar */
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.filter-container input[type="text"]:focus {
+    border-color: #007bff; /* Highlight on focus */
+    outline: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.category-section {
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #2c3e50; /* Darker blue for titles */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db; /* Accent color */
+}
+
+.newsletter-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 25px;
+}
+
+.newsletter-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px; /* Rounded corners for cards */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes link to bottom */
+}
+
+.newsletter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.newsletter-card h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+.newsletter-card p {
+    font-size: 0.95em;
+    color: #555;
+    flex-grow: 1; /* Allows paragraph to take available space */
+    margin-bottom: 15px;
+}
+
+.newsletter-card a {
+    display: inline-block;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    margin-top: auto; /* Pushes link to the bottom */
+}
+
+.newsletter-card a:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #343a40; /* Dark footer */
+    color: #f8f9fa;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #6cb2eb; /* Lighter blue for links in dark footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
