@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Newsletter Hub</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>AI Newsletter Hub</h1>
-        <p>Discover the best newsletters to stay updated on Artificial Intelligence and Machine Learning.</p>
-        <div class="filter-container">
-            <input type="text" id="searchInput" placeholder="Search newsletters...">
-            <!-- Optional: Category filter dropdown could go here -->
-        </div>
+      <h1>AI Newsletter Hub</h1>
+      <p>
+        Discover the best newsletters to stay updated on Artificial Intelligence
+        and Machine Learning.
+      </p>
+      <div class="filter-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search newsletters..."
+        />
+        <select id="categoryFilter">
+          <option value="">All Categories</option>
+          <option value="General AI/ML News & Trends (Broad Appeal)">
+            General AI/ML News & Trends (Broad Appeal)
+          </option>
+          <option value="Research & Cutting-Edge Developments">
+            Research & Cutting-Edge Developments
+          </option>
+          <option value="Technical Deep Dives & MLOps">
+            Technical Deep Dives & MLOps
+          </option>
+          <option value="Industry Applications & Business Focus">
+            Industry Applications & Business Focus
+          </option>
+          <option value="AI Ethics, Policy & Society">
+            AI Ethics, Policy & Society
+          </option>
+          <option value="Specific AI Subfields (NLP, CV, etc.)">
+            Specific AI Subfields (NLP, CV, etc.)
+          </option>
+          <option value="Learning Resources & Skill Development">
+            Learning Resources & Skill Development
+          </option>
+          <option value="Company-Specific Newsletters (Often Excellent)">
+            Company-Specific Newsletters (Often Excellent)
+          </option>
+          <option value="Curated by Influential Individuals">
+            Curated by Influential Individuals
+          </option>
+          <option value="More Niche or Emerging Gems">
+            More Niche or Emerging Gems
+          </option>
+        </select>
+        <!-- Optional: Category filter dropdown could go here -->
+      </div>
     </header>
 
     <main id="newsletterGrid">
-        <!-- Newsletter cards will be injected here by JavaScript -->
+      <!-- Newsletter cards will be injected here by JavaScript -->
     </main>
 
     <footer>
-        <p>Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. List curated from community input.</p>
+      <p>
+        Hosted on
+        <a
+          href="https://pages.github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub Pages</a
+        >. List curated from community input.
+      </p>
     </footer>
 
     <script src="data.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
