@@ -91,7 +91,7 @@ const newsletters = [
     name: 'Artificial Ignorance',
     description: 'A critical, often humorous take on AI hype.',
     category: 'General AI/ML News & Trends (Broad Appeal)',
-    url: 'https://artificialignorance.substack.com/',
+    url: 'https://www.ignorance.ai/',
   },
   {
     name: 'The Neuron',
