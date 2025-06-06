@@ -79,7 +79,7 @@ const newsletters = [
     name: 'AI Weekly (Inside.com)',
     description: 'Curated AI news from various sources.',
     category: 'General AI/ML News & Trends (Broad Appeal)',
-    url: 'https://inside.ai',
+    url: 'https://insideainews.com/',
   },
   {
     name: 'Synced Review',
